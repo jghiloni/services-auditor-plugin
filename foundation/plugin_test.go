@@ -1,6 +1,7 @@
 package foundation_test
 
 import (
+	"fmt"
 	"strings"
 	"testing"
 
@@ -10,6 +11,22 @@ import (
 	"code.cloudfoundry.org/cli/cf/terminal/terminalfakes"
 	"github.com/jghiloni/services-auditor-plugin/foundation"
 )
+
+func TestGetMetadata(t *testing.T) {
+	RegisterTestingT(t)
+
+	ui := &terminalfakes.FakeUI{}
+	plugin := foundation.NewAuditorPlugin(ui)
+
+	expectedVersion := foundation.Version
+
+	metadata := plugin.GetMetadata()
+	version := metadata.Version
+
+	actualVersion := fmt.Sprintf("%d.%d.%d", version.Major, version.Minor, version.Build)
+
+	Expect(actualVersion).To(Equal(expectedVersion))
+}
 
 func TestPluginAsAdmin(t *testing.T) {
 	RegisterTestingT(t)
