@@ -5,6 +5,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
+	"sort"
 	"strings"
 
 	"code.cloudfoundry.org/cli/cf/i18n"
@@ -81,6 +82,7 @@ func (p *ServiceAuditorPlugin) Run(cli plugin.CliConnection, args []string) {
 	if err != nil {
 		p.UI.Failed(err.Error())
 	}
+	sort.Sort(rows)
 
 	p.UI.Ok()
 	table := p.UI.Table([]string{"Service Name", "Plan Name", "Instances", "Bindings", "Keys"})
