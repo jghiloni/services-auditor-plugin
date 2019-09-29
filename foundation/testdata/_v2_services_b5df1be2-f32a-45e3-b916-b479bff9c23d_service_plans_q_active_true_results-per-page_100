@@ -1,0 +1,164 @@
+{
+   "total_results": 4,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "b75c650c-41d8-4650-8ab6-74be7f3c4d32",
+            "url": "/v2/service_plans/b75c650c-41d8-4650-8ab6-74be7f3c4d32",
+            "created_at": "2016-10-21T20:54:14Z",
+            "updated_at": "2019-05-28T20:11:29Z"
+         },
+         "entity": {
+            "name": "free",
+            "free": true,
+            "description": "Free",
+            "service_guid": "b5df1be2-f32a-45e3-b916-b479bff9c23d",
+            "extra": "{\n  \"displayName\": \"Free\",\n  \"bullets\": [\n    \"5 Concurrent Connections\",\n    \"10 MB Storage\",\n    \"100 MB Transfer\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "2a7deb61-f463-4502-ab20-d1103503ce88",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/b5df1be2-f32a-45e3-b916-b479bff9c23d",
+            "service_instances_url": "/v2/service_plans/b75c650c-41d8-4650-8ab6-74be7f3c4d32/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "843dea7e-b9b4-4ad0-bfa3-163e1023ea56",
+            "url": "/v2/service_plans/843dea7e-b9b4-4ad0-bfa3-163e1023ea56",
+            "created_at": "2016-10-21T20:54:14Z",
+            "updated_at": "2019-05-28T20:11:29Z"
+         },
+         "entity": {
+            "name": "indie",
+            "free": false,
+            "description": "Indie",
+            "service_guid": "b5df1be2-f32a-45e3-b916-b479bff9c23d",
+            "extra": "{\n  \"displayName\": \"Indie\",\n  \"bullets\": [\n    \"50 Concurrent Connections\",\n    \"1 GB Storage\",\n    \"10 GB Data Transfer\",\n    \"CloudLink Dashboard\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 600.0\n      },\n      \"unit\": \"YEARLY\"\n    }\n  ]\n}",
+            "unique_id": "18f3cfe4-7a04-4bca-af65-d55851e114ab",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/b5df1be2-f32a-45e3-b916-b479bff9c23d",
+            "service_instances_url": "/v2/service_plans/843dea7e-b9b4-4ad0-bfa3-163e1023ea56/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "8dc0e9cb-9b50-4274-8aae-c53aff099ee1",
+            "url": "/v2/service_plans/8dc0e9cb-9b50-4274-8aae-c53aff099ee1",
+            "created_at": "2016-10-21T20:54:14Z",
+            "updated_at": "2019-05-28T20:11:29Z"
+         },
+         "entity": {
+            "name": "business",
+            "free": false,
+            "description": "Business",
+            "service_guid": "b5df1be2-f32a-45e3-b916-b479bff9c23d",
+            "extra": "{\n  \"displayName\": \"Business\",\n  \"bullets\": [\n    \"250 Concurrent Connections\",\n    \"10 GB Storage\",\n    \"10 GB Data Transfer\",\n    \"CloudLink Dashboard\",\n    \"SLA 95% Uptime Guarantee\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 250.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "8d3688c5-83fc-492c-8c76-db113d962906",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/b5df1be2-f32a-45e3-b916-b479bff9c23d",
+            "service_instances_url": "/v2/service_plans/8dc0e9cb-9b50-4274-8aae-c53aff099ee1/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "0faaa24e-4244-44ec-a5c3-4bbc27ad12a2",
+            "url": "/v2/service_plans/0faaa24e-4244-44ec-a5c3-4bbc27ad12a2",
+            "created_at": "2016-10-21T20:54:14Z",
+            "updated_at": "2019-05-28T20:11:29Z"
+         },
+         "entity": {
+            "name": "enterprise",
+            "free": false,
+            "description": "Enterprise",
+            "service_guid": "b5df1be2-f32a-45e3-b916-b479bff9c23d",
+            "extra": "{\n  \"displayName\": \"Enterprise\",\n  \"bullets\": [\n    \"1000 Concurrent Connections\",\n    \"100 GB Storage\",\n    \"1 TB Transfer\",\n    \"CloudLink Dashboard\",\n    \"SLA (99% Uptime Guarantee)\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 500.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "65cd86d1-cbdc-434b-a628-e759a68494bf",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/b5df1be2-f32a-45e3-b916-b479bff9c23d",
+            "service_instances_url": "/v2/service_plans/0faaa24e-4244-44ec-a5c3-4bbc27ad12a2/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

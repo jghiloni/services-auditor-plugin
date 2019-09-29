@@ -1,0 +1,26 @@
+{
+   "total_results": 1,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "3be0fb4f-9b5d-4ea5-9ded-b166b832d138",
+            "url": "/v2/service_keys/3be0fb4f-9b5d-4ea5-9ded-b166b832d138",
+            "created_at": "2019-09-29T16:23:25Z",
+            "updated_at": "2019-09-29T16:23:25Z"
+         },
+         "entity": {
+            "name": "mymqkey",
+            "service_instance_guid": "3850e06b-c21b-403f-af92-911bbb4c84ae",
+            "credentials": {
+               "uri": "amqp://jumutcos:Cr0ZEJfMDpIQVHBQqiQtvmhI_DDOFSeS@wildboar.rmq.cloudamqp.com/jumutcos",
+               "http_api_uri": "https://jumutcos:Cr0ZEJfMDpIQVHBQqiQtvmhI_DDOFSeS@wildboar.rmq.cloudamqp.com/api/"
+            },
+            "service_instance_url": "/v2/service_instances/3850e06b-c21b-403f-af92-911bbb4c84ae",
+            "service_key_parameters_url": "/v2/service_keys/3be0fb4f-9b5d-4ea5-9ded-b166b832d138/parameters"
+         }
+      }
+   ]
+}

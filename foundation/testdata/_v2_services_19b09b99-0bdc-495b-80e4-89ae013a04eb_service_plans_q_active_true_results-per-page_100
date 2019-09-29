@@ -1,0 +1,47 @@
+{
+   "total_results": 1,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "08111af9-e2cb-42d6-8ed0-a9310f11ae84",
+            "url": "/v2/service_plans/08111af9-e2cb-42d6-8ed0-a9310f11ae84",
+            "created_at": "2016-11-07T16:48:30Z",
+            "updated_at": "2019-09-27T15:15:28Z"
+         },
+         "entity": {
+            "name": "standard",
+            "free": true,
+            "description": "This plan monitors and scales applications based on scaling rules every 30 seconds.",
+            "service_guid": "19b09b99-0bdc-495b-80e4-89ae013a04eb",
+            "extra": "{\n  \"displayName\": \"Standard\",\n  \"bullets\": [\n    \"Scales your app up and down according to user-provided rules\",\n    \"Monitors CPU, HTTP Latency and/or HTTP Throughput every 5 seconds\",\n    \"Waits 30 seconds after every scale event before other scale decisions.\",\n    \"Instance Limits Changes can be scheduled for one-time events in the future\",\n    \"Instance Limits Changes can be scheduled to recur weekly to reduce app costs\",\n    \"Configure via the CLI or API\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "544ade5f-0479-49ce-bd36-082dbebfd504",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/19b09b99-0bdc-495b-80e4-89ae013a04eb",
+            "service_instances_url": "/v2/service_plans/08111af9-e2cb-42d6-8ed0-a9310f11ae84/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

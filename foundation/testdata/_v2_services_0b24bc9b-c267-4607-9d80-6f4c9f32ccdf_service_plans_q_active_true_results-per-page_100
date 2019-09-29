@@ -1,0 +1,47 @@
+{
+   "total_results": 1,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "76f65c20-c49e-41c4-a035-27888912a0a3",
+            "url": "/v2/service_plans/76f65c20-c49e-41c4-a035-27888912a0a3",
+            "created_at": "2017-10-26T22:20:25Z",
+            "updated_at": "2019-09-16T17:21:09Z"
+         },
+         "entity": {
+            "name": "standard",
+            "free": true,
+            "description": "Scheduler for PCF",
+            "service_guid": "0b24bc9b-c267-4607-9d80-6f4c9f32ccdf",
+            "extra": "{\n  \"cost\": 0,\n  \"bullets\": [\n    {\n      \"content\": \"Schedule CF Tasks\"\n    },\n    {\n      \"content\": \"Schedule WebHooks\"\n    }\n  ]\n}",
+            "unique_id": "5a8113c1-08f7-4f68-9272-d1bbed9d509b",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/0b24bc9b-c267-4607-9d80-6f4c9f32ccdf",
+            "service_instances_url": "/v2/service_plans/76f65c20-c49e-41c4-a035-27888912a0a3/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

@@ -1,0 +1,164 @@
+{
+   "total_results": 4,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "fd12a21d-6667-4150-8193-884d083b7874",
+            "url": "/v2/service_plans/fd12a21d-6667-4150-8193-884d083b7874",
+            "created_at": "2015-01-19T21:16:31Z",
+            "updated_at": "2019-05-28T20:11:32Z"
+         },
+         "entity": {
+            "name": "spark",
+            "free": true,
+            "description": "Great for getting started and developing your apps",
+            "service_guid": "5e30ff7e-d857-4aa7-9eda-7db9a0d7b19b",
+            "extra": "{\n  \"displayName\": \"Spark DB\",\n  \"bullets\": [\n    \"Price: FREE!\",\n    \"DB size: up to 5 MB\",\n    \"Connections: 4\",\n    \"I/O Performance: Low\",\n    \"Daily Backups\",\n    \"Perfect for proof-of-concept and initial development.\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "f6f30bcf-5e1e-467f-b0a6-f221fee91549",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/5e30ff7e-d857-4aa7-9eda-7db9a0d7b19b",
+            "service_instances_url": "/v2/service_plans/fd12a21d-6667-4150-8193-884d083b7874/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "975b43c8-a218-4bdf-b769-542888ec6f70",
+            "url": "/v2/service_plans/975b43c8-a218-4bdf-b769-542888ec6f70",
+            "created_at": "2015-01-19T21:16:31Z",
+            "updated_at": "2019-05-28T20:11:32Z"
+         },
+         "entity": {
+            "name": "boost",
+            "free": false,
+            "description": "Best for light production or staging your applications",
+            "service_guid": "5e30ff7e-d857-4aa7-9eda-7db9a0d7b19b",
+            "extra": "{\n  \"displayName\": \"Boost DB\",\n  \"bullets\": [\n    \"Price: $10/month\",\n    \"DB size: up to 1GB\",\n    \"Connections: 15\",\n    \"I/O Performance: Moderate\",\n    \"Daily Backups\",\n    \"Excellent choice for light production or staging apps that need MySQL reliability.\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 10.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "eb018398-2cc7-4948-9634-5ca8e09bf6a2",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/5e30ff7e-d857-4aa7-9eda-7db9a0d7b19b",
+            "service_instances_url": "/v2/service_plans/975b43c8-a218-4bdf-b769-542888ec6f70/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "1f65b86e-89f9-49b2-84be-691f3fa12804",
+            "url": "/v2/service_plans/1f65b86e-89f9-49b2-84be-691f3fa12804",
+            "created_at": "2015-01-19T21:16:31Z",
+            "updated_at": "2019-05-28T20:11:32Z"
+         },
+         "entity": {
+            "name": "amp",
+            "free": false,
+            "description": "For apps with moderate data requirements",
+            "service_guid": "5e30ff7e-d857-4aa7-9eda-7db9a0d7b19b",
+            "extra": "{\n  \"displayName\": \"Amp DB\",\n  \"bullets\": [\n    \"Price: $50/month\",\n    \"DB size: up to 5GB\",\n    \"Connections: 30\",\n    \"I/O Performance: High\",\n    \"Daily Backups\",\n    \"Great for apps with moderate data requirements that need rock-solid MySQL availability.\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 50.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "97ed68a4-f159-4759-a577-dde22c5d1087",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/5e30ff7e-d857-4aa7-9eda-7db9a0d7b19b",
+            "service_instances_url": "/v2/service_plans/1f65b86e-89f9-49b2-84be-691f3fa12804/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "1782b3d6-c36c-4faf-bb2d-25beb66ba66b",
+            "url": "/v2/service_plans/1782b3d6-c36c-4faf-bb2d-25beb66ba66b",
+            "created_at": "2015-01-19T21:16:31Z",
+            "updated_at": "2019-05-28T20:11:32Z"
+         },
+         "entity": {
+            "name": "shock",
+            "free": false,
+            "description": "Designed for apps where you need real MySQL reliability, power and throughput",
+            "service_guid": "5e30ff7e-d857-4aa7-9eda-7db9a0d7b19b",
+            "extra": "{\n  \"displayName\": \"Shock DB\",\n  \"bullets\": [\n    \"Price: $100/month\",\n    \"DB size: up to 10GB\",\n    \"Connections: 40\",\n    \"I/O Performance: Very High\",\n    \"Daily Backups\",\n    \"Designed for apps where high performance is crucial\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 100.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "c7d17efe-d281-486b-b54c-4384c0b2f1cd",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/5e30ff7e-d857-4aa7-9eda-7db9a0d7b19b",
+            "service_instances_url": "/v2/service_plans/1782b3d6-c36c-4faf-bb2d-25beb66ba66b/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

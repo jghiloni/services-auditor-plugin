@@ -1,0 +1,125 @@
+{
+   "total_results": 3,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "1dd7ec16-d149-44d0-846f-0579303da37f",
+            "url": "/v2/service_plans/1dd7ec16-d149-44d0-846f-0579303da37f",
+            "created_at": "2017-11-02T11:21:19Z",
+            "updated_at": "2019-07-22T15:01:09Z"
+         },
+         "entity": {
+            "name": "cache-small",
+            "free": true,
+            "description": "This plan provides a small dedicated Redis instance, tailored for caching use-cases with persistence to disk enabled",
+            "service_guid": "c4d770a0-d531-4848-8827-6d4f084614d5",
+            "extra": "{\n  \"bullets\": [\n    \"1 dedicated Redis\",\n    \"10000 connections\",\n    \"Default configuration is for caching with persistence\",\n    \"Total VM memory (partially restricted due to persistence requirements) is 1GB\"\n  ],\n  \"displayName\": \"460MB\"\n}",
+            "unique_id": "ec42aa98-be4f-11e7-94c0-38c9864863b9",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/c4d770a0-d531-4848-8827-6d4f084614d5",
+            "service_instances_url": "/v2/service_plans/1dd7ec16-d149-44d0-846f-0579303da37f/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "037a9e01-e43d-43ef-926d-5cf1ef61ce27",
+            "url": "/v2/service_plans/037a9e01-e43d-43ef-926d-5cf1ef61ce27",
+            "created_at": "2017-11-02T11:21:19Z",
+            "updated_at": "2019-07-22T15:01:10Z"
+         },
+         "entity": {
+            "name": "cache-medium",
+            "free": true,
+            "description": "This plan provides a medium dedicated Redis instance, tailored for caching use-cases with persistence to disk enabled",
+            "service_guid": "c4d770a0-d531-4848-8827-6d4f084614d5",
+            "extra": "{\n  \"bullets\": [\n    \"1 dedicated Redis\",\n    \"10000 connections\",\n    \"Default configuration is for caching with persistence\",\n    \"Total VM memory (partially restricted due to persistence requirements) is 2GB\"\n  ],\n  \"displayName\": \"920MB\"\n}",
+            "unique_id": "ebe2397e-be4f-11e7-b2c6-38c9864863b9",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/c4d770a0-d531-4848-8827-6d4f084614d5",
+            "service_instances_url": "/v2/service_plans/037a9e01-e43d-43ef-926d-5cf1ef61ce27/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "855d53de-23d1-48a8-bc45-6c790789dbb7",
+            "url": "/v2/service_plans/855d53de-23d1-48a8-bc45-6c790789dbb7",
+            "created_at": "2017-11-02T11:21:19Z",
+            "updated_at": "2019-07-22T15:01:11Z"
+         },
+         "entity": {
+            "name": "cache-large",
+            "free": true,
+            "description": "This plan provides a large dedicated Redis instance, tailored for caching use-cases with persistence to disk enabled",
+            "service_guid": "c4d770a0-d531-4848-8827-6d4f084614d5",
+            "extra": "{\n  \"bullets\": [\n    \"1 dedicated Redis\",\n    \"10000 connections\",\n    \"Default configuration is for caching with persistence\",\n    \"Total VM memory (partially restricted due to persistence requirements) is 4GB\"\n  ],\n  \"displayName\": \"1840MB\"\n}",
+            "unique_id": "eb0837ba-be4f-11e7-9796-38c9864863b9",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/c4d770a0-d531-4848-8827-6d4f084614d5",
+            "service_instances_url": "/v2/service_plans/855d53de-23d1-48a8-bc45-6c790789dbb7/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

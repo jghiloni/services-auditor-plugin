@@ -1,0 +1,281 @@
+{
+   "total_results": 7,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "8ba57698-974c-4e50-aaa3-95a3704074b7",
+            "url": "/v2/service_plans/8ba57698-974c-4e50-aaa3-95a3704074b7",
+            "created_at": "2015-01-19T21:16:33Z",
+            "updated_at": "2019-05-28T20:11:31Z"
+         },
+         "entity": {
+            "name": "small",
+            "free": false,
+            "description": "5 indices, 600MB SSD Storage",
+            "service_guid": "c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "extra": "{\n  \"displayName\": \"Small\",\n  \"bullets\": [\n    \"5 Indices\",\n    \"600MB SSD Storage\",\n    \"High Available\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 19.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "003bbe94-a130-4007-be4f-c0bee3a36198",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "service_instances_url": "/v2/service_plans/8ba57698-974c-4e50-aaa3-95a3704074b7/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "42d49881-a34b-4617-b591-24a41de54060",
+            "url": "/v2/service_plans/42d49881-a34b-4617-b591-24a41de54060",
+            "created_at": "2015-01-19T21:16:33Z",
+            "updated_at": "2019-05-28T20:11:31Z"
+         },
+         "entity": {
+            "name": "micro",
+            "free": false,
+            "description": "3 indices, 100MB SSD Storage",
+            "service_guid": "c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "extra": "{\n  \"displayName\": \"Micro\",\n  \"bullets\": [\n    \"3 Indices\",\n    \"100MB SSD Storage\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 9.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "967d8ae2-0b95-45dd-8b81-46f0d3c3b0ec",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "service_instances_url": "/v2/service_plans/42d49881-a34b-4617-b591-24a41de54060/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "25cea23c-ce8f-4e79-91db-ed2cf0ae51d4",
+            "url": "/v2/service_plans/25cea23c-ce8f-4e79-91db-ed2cf0ae51d4",
+            "created_at": "2015-01-19T21:16:33Z",
+            "updated_at": "2019-05-28T20:11:31Z"
+         },
+         "entity": {
+            "name": "professional",
+            "free": false,
+            "description": "13 indices, 4GB SSD Storage",
+            "service_guid": "c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "extra": "{\n  \"displayName\": \"Professional\",\n  \"bullets\": [\n    \"13 Indices\",\n    \"4GB SSD Storage\",\n    \"High Available\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 99.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "d38bdf8c-90fa-4ac3-a866-b33ccb995177",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "service_instances_url": "/v2/service_plans/25cea23c-ce8f-4e79-91db-ed2cf0ae51d4/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "97275ec6-6a1d-4b0c-9522-dc14830c0944",
+            "url": "/v2/service_plans/97275ec6-6a1d-4b0c-9522-dc14830c0944",
+            "created_at": "2015-01-19T21:16:33Z",
+            "updated_at": "2019-05-28T20:11:31Z"
+         },
+         "entity": {
+            "name": "advanced",
+            "free": false,
+            "description": "9 indices, 2GB SSD Storage",
+            "service_guid": "c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "extra": "{\n  \"displayName\": \"Advanced\",\n  \"bullets\": [\n    \"9 Indices\",\n    \"2GB SSD Storage\",\n    \"High Available\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 59.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "c4e36591-6a50-49df-8379-ba29bed44de3",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "service_instances_url": "/v2/service_plans/97275ec6-6a1d-4b0c-9522-dc14830c0944/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "5400444d-af14-4a6d-a02e-566bb92d2b4c",
+            "url": "/v2/service_plans/5400444d-af14-4a6d-a02e-566bb92d2b4c",
+            "created_at": "2015-01-19T21:16:33Z",
+            "updated_at": "2019-05-28T20:11:31Z"
+         },
+         "entity": {
+            "name": "starter",
+            "free": true,
+            "description": "2 indices, 5MB Storage",
+            "service_guid": "c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "extra": "{\n  \"displayName\": \"Starter\",\n  \"bullets\": [\n    \"2 Indices\",\n    \"5MB Storage\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "18fd8594-8339-4c90-a3e0-82de13472abc",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "service_instances_url": "/v2/service_plans/5400444d-af14-4a6d-a02e-566bb92d2b4c/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "eda55441-b18f-4556-a38c-848e5ed62969",
+            "url": "/v2/service_plans/eda55441-b18f-4556-a38c-848e5ed62969",
+            "created_at": "2015-01-19T21:16:33Z",
+            "updated_at": "2019-05-28T20:11:31Z"
+         },
+         "entity": {
+            "name": "business",
+            "free": false,
+            "description": "18 indices, 10GB SSD Storage",
+            "service_guid": "c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "extra": "{\n  \"displayName\": \"Business\",\n  \"bullets\": [\n    \"18 Indices\",\n    \"10GB SSD Storage\",\n    \"High Available\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 199.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "2f0d6677-5653-4a22-a052-9f0f37b0bc75",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "service_instances_url": "/v2/service_plans/eda55441-b18f-4556-a38c-848e5ed62969/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "74ad0b0d-ec4c-4387-a99a-0c57d64d49c7",
+            "url": "/v2/service_plans/74ad0b0d-ec4c-4387-a99a-0c57d64d49c7",
+            "created_at": "2015-01-19T21:16:33Z",
+            "updated_at": "2019-05-28T20:11:31Z"
+         },
+         "entity": {
+            "name": "enterprise",
+            "free": false,
+            "description": "22 indices, 20GB SSD Storage",
+            "service_guid": "c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "extra": "{\n  \"displayName\": \"Enterprise\",\n  \"bullets\": [\n    \"22 Indices\",\n    \"20GB SSD Storage\",\n    \"High Available\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 399.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "875aeb20-3273-471c-ae2a-093682eedc56",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/c7ca0fdf-7f24-41e9-840e-08b435de5481",
+            "service_instances_url": "/v2/service_plans/74ad0b0d-ec4c-4387-a99a-0c57d64d49c7/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

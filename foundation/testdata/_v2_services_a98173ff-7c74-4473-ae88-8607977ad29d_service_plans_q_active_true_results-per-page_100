@@ -1,0 +1,47 @@
+{
+   "total_results": 1,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "20e604cf-27c6-4a36-bc35-91495eda5999",
+            "url": "/v2/service_plans/20e604cf-27c6-4a36-bc35-91495eda5999",
+            "created_at": "2015-07-17T23:11:02Z",
+            "updated_at": "2016-08-24T16:01:24Z"
+         },
+         "entity": {
+            "name": "basic",
+            "free": false,
+            "description": "Provide https:// for one or more apps on your custom domain by uploading your own SSL cert",
+            "service_guid": "a98173ff-7c74-4473-ae88-8607977ad29d",
+            "extra": "{\"bullets\":[\"Price: $20/month\",\"Upload a single domain-specific or wildcard SSL certificate\"],\"costs\":[{\"amount\":{\"usd\":20},\"unit\":\"MONTHLY\"}],\"displayName\":\"Basic\"}",
+            "unique_id": "f80f673c-51c7-46e9-bd1d-b461043bab3d",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/a98173ff-7c74-4473-ae88-8607977ad29d",
+            "service_instances_url": "/v2/service_plans/20e604cf-27c6-4a36-bc35-91495eda5999/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

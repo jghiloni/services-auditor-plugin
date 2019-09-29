@@ -1,0 +1,31 @@
+{
+   "total_results": 1,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "69bb8134-4378-4290-aaee-b1eadbb55367",
+            "url": "/v2/service_keys/69bb8134-4378-4290-aaee-b1eadbb55367",
+            "created_at": "2019-09-29T16:23:34Z",
+            "updated_at": "2019-09-29T16:23:34Z"
+         },
+         "entity": {
+            "name": "mydbkey",
+            "service_instance_guid": "889b9238-adff-4d3d-8adb-89dc739757df",
+            "credentials": {
+               "jdbcUrl": "jdbc:mysql://us-cdbr-iron-east-02.cleardb.net/ad_2dbc5189101245a?user=b1e76239c42754&password=773d7344",
+               "uri": "mysql://b1e76239c42754:773d7344@us-cdbr-iron-east-02.cleardb.net:3306/ad_2dbc5189101245a?reconnect=true",
+               "name": "ad_2dbc5189101245a",
+               "hostname": "us-cdbr-iron-east-02.cleardb.net",
+               "port": "3306",
+               "username": "b1e76239c42754",
+               "password": "773d7344"
+            },
+            "service_instance_url": "/v2/service_instances/889b9238-adff-4d3d-8adb-89dc739757df",
+            "service_key_parameters_url": "/v2/service_keys/69bb8134-4378-4290-aaee-b1eadbb55367/parameters"
+         }
+      }
+   ]
+}

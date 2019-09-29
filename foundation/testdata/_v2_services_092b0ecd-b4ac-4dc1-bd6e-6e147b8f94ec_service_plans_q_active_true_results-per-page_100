@@ -1,0 +1,125 @@
+{
+   "total_results": 3,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "4f583975-5339-4eca-b0c1-562e2fcbddf9",
+            "url": "/v2/service_plans/4f583975-5339-4eca-b0c1-562e2fcbddf9",
+            "created_at": "2015-01-19T21:16:30Z",
+            "updated_at": "2019-05-28T20:11:29Z"
+         },
+         "entity": {
+            "name": "small",
+            "free": false,
+            "description": "Small",
+            "service_guid": "092b0ecd-b4ac-4dc1-bd6e-6e147b8f94ec",
+            "extra": "{\n  \"displayName\": \"Small\",\n  \"bullets\": [\n    \"Up to 50,000 documents\",\n    \"Two search indexes\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 25.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "6d238412-cccd-11e2-bff0-12313d1adc2b",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/092b0ecd-b4ac-4dc1-bd6e-6e147b8f94ec",
+            "service_instances_url": "/v2/service_plans/4f583975-5339-4eca-b0c1-562e2fcbddf9/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "56a63e76-85f3-4d14-b82e-e7283e414a51",
+            "url": "/v2/service_plans/56a63e76-85f3-4d14-b82e-e7283e414a51",
+            "created_at": "2015-01-19T21:16:30Z",
+            "updated_at": "2019-05-28T20:11:29Z"
+         },
+         "entity": {
+            "name": "plus",
+            "free": false,
+            "description": "Plus",
+            "service_guid": "092b0ecd-b4ac-4dc1-bd6e-6e147b8f94ec",
+            "extra": "{\n  \"displayName\": \"Plus\",\n  \"bullets\": [\n    \"Up to 500,000 documents\",\n    \"Three search indexes\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 59.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "6d2385e8-cccd-11e2-bff0-12313d1adc2b",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/092b0ecd-b4ac-4dc1-bd6e-6e147b8f94ec",
+            "service_instances_url": "/v2/service_plans/56a63e76-85f3-4d14-b82e-e7283e414a51/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "508ba8d8-c024-4e2f-9dcf-64e9ba2a15de",
+            "url": "/v2/service_plans/508ba8d8-c024-4e2f-9dcf-64e9ba2a15de",
+            "created_at": "2015-01-19T21:16:30Z",
+            "updated_at": "2019-05-28T20:11:29Z"
+         },
+         "entity": {
+            "name": "pro",
+            "free": false,
+            "description": "Pro",
+            "service_guid": "092b0ecd-b4ac-4dc1-bd6e-6e147b8f94ec",
+            "extra": "{\n  \"displayName\": \"Pro\",\n  \"bullets\": [\n    \"Up to 2,000,000 documents\",\n    \"Four search indexes\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 229.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "6d2387aa-cccd-11e2-bff0-12313d1adc2b",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/092b0ecd-b4ac-4dc1-bd6e-6e147b8f94ec",
+            "service_instances_url": "/v2/service_plans/508ba8d8-c024-4e2f-9dcf-64e9ba2a15de/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

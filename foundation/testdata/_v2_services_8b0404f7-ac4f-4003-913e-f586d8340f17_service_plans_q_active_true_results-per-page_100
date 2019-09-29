@@ -1,0 +1,164 @@
+{
+   "total_results": 4,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "76f2d908-5219-426b-93cf-d1171b6cd390",
+            "url": "/v2/service_plans/76f2d908-5219-426b-93cf-d1171b6cd390",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "lifree",
+            "free": true,
+            "description": "Free",
+            "service_guid": "8b0404f7-ac4f-4003-913e-f586d8340f17",
+            "extra": "{\n  \"displayName\": \"Free\",\n  \"bullets\": [\n    \"Max 100 concurrent users (VUs) per test\",\n    \"5 tests per month\",\n    \"Max 5 minutes test duration\",\n    \"Max 1 server metric agents\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "ff73227b-e41c-40ab-a309-a2902536e71a",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/8b0404f7-ac4f-4003-913e-f586d8340f17",
+            "service_instances_url": "/v2/service_plans/76f2d908-5219-426b-93cf-d1171b6cd390/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "39f35cb9-7e96-4321-a797-b5ef99e284ac",
+            "url": "/v2/service_plans/39f35cb9-7e96-4321-a797-b5ef99e284ac",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "li100",
+            "free": false,
+            "description": "Basic",
+            "service_guid": "8b0404f7-ac4f-4003-913e-f586d8340f17",
+            "extra": "{\n  \"displayName\": \"Basic\",\n  \"bullets\": [\n    \"Max 500 concurrent users (VUs) per test\",\n    \"15 tests per month\",\n    \"1 max capacity test per month up to 1,000 VUs\",\n    \"Max 120 minutes test duration\",\n    \"Max 3 server metric agents\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 267.0\n      },\n      \"unit\": \"QUARTERLY\"\n    }\n  ]\n}",
+            "unique_id": "1cbeda7e-6094-409a-8674-5b727d26fd2a",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/8b0404f7-ac4f-4003-913e-f586d8340f17",
+            "service_instances_url": "/v2/service_plans/39f35cb9-7e96-4321-a797-b5ef99e284ac/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "028f710c-b530-4a67-af00-ccc8a2b49016",
+            "url": "/v2/service_plans/028f710c-b530-4a67-af00-ccc8a2b49016",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "li500",
+            "free": false,
+            "description": "Standard",
+            "service_guid": "8b0404f7-ac4f-4003-913e-f586d8340f17",
+            "extra": "{\n  \"displayName\": \"Standard\",\n  \"bullets\": [\n    \"Max 1000 concurrent users (VUs) per test\",\n    \"Unlimited tests per month\",\n    \"1 max capacity test per month with up to 3,000 VUs\",\n    \"Max 120 minutes test duration\",\n    \"Max 4 server metric agents\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 299.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "ec43d4ab-3f64-4202-b1af-a128ce594290",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/8b0404f7-ac4f-4003-913e-f586d8340f17",
+            "service_instances_url": "/v2/service_plans/028f710c-b530-4a67-af00-ccc8a2b49016/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "0407cb7d-7710-4967-9339-125712081be9",
+            "url": "/v2/service_plans/0407cb7d-7710-4967-9339-125712081be9",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "li1000",
+            "free": false,
+            "description": "Advanced",
+            "service_guid": "8b0404f7-ac4f-4003-913e-f586d8340f17",
+            "extra": "{\n  \"displayName\": \"Advanced\",\n  \"bullets\": [\n    \"Max 5000 concurrent users (VUs) per test\",\n    \"Unlimited tests per month\",\n    \"2 max capacity tests per month with up 7,000 VUs\",\n    \"Max 120 minutes test duration\",\n    \"Max 5 server metrics agents\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 699.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "1c3dffcd-d1e5-4294-a80f-b8da63af7583",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/8b0404f7-ac4f-4003-913e-f586d8340f17",
+            "service_instances_url": "/v2/service_plans/0407cb7d-7710-4967-9339-125712081be9/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

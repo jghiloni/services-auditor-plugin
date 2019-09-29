@@ -1,0 +1,125 @@
+{
+   "total_results": 3,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "f7c8a490-25ff-40a8-b369-45566a40eff3",
+            "url": "/v2/service_plans/f7c8a490-25ff-40a8-b369-45566a40eff3",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "free",
+            "free": true,
+            "description": "Free Package",
+            "service_guid": "e15ed959-70a9-4ee7-8c84-056bba5b63d7",
+            "extra": "{\n  \"displayName\": \"Free Package\",\n  \"bullets\": [\n    \"25,000 Free Email Credits / Month\",\n    \"DomainKeys Identified Mail (DKIM)\",\n    \"Sender Policy Framework (SPF)\",\n    \"Content Inspection\",\n    \"Reputation Monitoring\",\n    \"Spam Filter Testing\",\n    \"ISP Monitoring\",\n    \"Link Customization\",\n    \"SMTP Relay\",\n    \"SMTP API\",\n    \"Web API\",\n    \"Premium Phone Support\",\n    \"Live Chat\",\n    \"Email Support\",\n    \"Online Support Portal\",\n    \"Forums\",\n    \"Documentation\",\n    \"Knowledge Base\",\n    \"Twitter\",\n    \"Real Time Analytics Reporting\",\n    \"Automated Email Reporting\",\n    \"Requests\",\n    \"Delivered\",\n    \"Bounces\",\n    \"Repeat Bounces\",\n    \"Spam Reports\",\n    \"Repeat Spam Reports\",\n    \"Invalid Email Requests\",\n    \"Blocks\",\n    \"Email Activity\",\n    \"Open Tracking\",\n    \"Unique Open Tracking\",\n    \"Click Tracking\",\n    \"Unique Click Tracking\",\n    \"Unsubscribe Tracking\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "9e98228a-396e-4d8a-9893-e40b389f4c22",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/e15ed959-70a9-4ee7-8c84-056bba5b63d7",
+            "service_instances_url": "/v2/service_plans/f7c8a490-25ff-40a8-b369-45566a40eff3/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "f7d63e28-ce54-4035-8c40-673cd9b00bb0",
+            "url": "/v2/service_plans/f7d63e28-ce54-4035-8c40-673cd9b00bb0",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "bronze",
+            "free": false,
+            "description": "Bronze Package",
+            "service_guid": "e15ed959-70a9-4ee7-8c84-056bba5b63d7",
+            "extra": "{\n  \"displayName\": \"Bronze Package\",\n  \"bullets\": [\n    \"40,000 Email Credits/Month\",\n    \"$ 0.00100 Per Email Thereafter\",\n    \"DomainKeys Identified Mail (DKIM)\",\n    \"Sender Policy Framework (SPF)\",\n    \"Content Inspection\",\n    \"Reputation Monitoring\",\n    \"Spam Filter Testing\",\n    \"ISP Monitoring\",\n    \"Link Customization\",\n    \"SMTP Relay\",\n    \"SMTP API\",\n    \"Web API\",\n    \"Premium Phone Support\",\n    \"Live Chat Support\",\n    \"Email Support\",\n    \"Online Support Portal\",\n    \"Forums\",\n    \"Documentation\",\n    \"Knowledge Base\",\n    \"Twitter\",\n    \"Reporting/Analytics\",\n    \"Real Time Analytics Reporting\",\n    \"Automated Email Reporting\",\n    \"Requests\",\n    \"Delivered\",\n    \"Bounces\",\n    \"Repeat Bounces\",\n    \"Spam Reports\",\n    \"Repeat Spam Reports\",\n    \"Invalid Email Requests\",\n    \"Blocks\",\n    \"Email Activity\",\n    \"Open Tracking\",\n    \"Unique Open Tracking\",\n    \"Click Tracking\",\n    \"Unique Click Tracking\",\n    \"Unsubscribe Tracking\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 9.95\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "1175ab4e-fc47-41e6-a56c-295dece16934",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/e15ed959-70a9-4ee7-8c84-056bba5b63d7",
+            "service_instances_url": "/v2/service_plans/f7d63e28-ce54-4035-8c40-673cd9b00bb0/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "5285bf02-ceb7-4545-a720-1ce9ad1eef15",
+            "url": "/v2/service_plans/5285bf02-ceb7-4545-a720-1ce9ad1eef15",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "silver",
+            "free": false,
+            "description": "Silver Package",
+            "service_guid": "e15ed959-70a9-4ee7-8c84-056bba5b63d7",
+            "extra": "{\n  \"displayName\": \"Silver Package\",\n  \"bullets\": [\n    \"100,000 Email Credits/Month\",\n    \"0.00085 Per Email Thereafter\",\n    \"DomainKeys Identified Mail (DKIM)\",\n    \"Sender Policy Framework (SPF)\",\n    \"Content Inspection\",\n    \"Reputation Monitoring\",\n    \"Spam Filter Testing\",\n    \"ISP Monitoring\",\n    \"Link Customization\",\n    \"Dedicated IP Address\",\n    \"Whitelist Services\",\n    \"ISP Deliverability Outreach\",\n    \"Gmail/Yahoo/Hotmail/AOL Whitelist\",\n    \"Return Path Qualified (Optional)\",\n    \"Feedback Loops\",\n    \"Whitelabeling\",\n    \"SMTP Relay\",\n    \"SMTP API\",\n    \"Web API\",\n    \"OEM API\",\n    \"Parse API\",\n    \"Event API\",\n    \"Premium Phone Support\",\n    \"Live Chat\",\n    \"Email Support\",\n    \"Online Support Portal\",\n    \"Forums\",\n    \"Documentation\",\n    \"Knowledge Base\",\n    \"Twitter\",\n    \"Real Time Analytics Reporting\",\n    \"Automated Email Reporting\",\n    \"Requests\",\n    \"Delivered\",\n    \"Bounces\",\n    \"Repeat Bounces\",\n    \"Spam Reports\",\n    \"Repeat Spam Reports\",\n    \"Invalid Email Requests\",\n    \"Blocks\",\n    \"Email Activity\",\n    \"Open Tracking\",\n    \"Unique Click Tracking\",\n    \"Unsubscribe Tracking\",\n    \"Sub-user Panel\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 79.95\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "cfd5a353-3619-4d8a-b509-11ec19e4378d",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/e15ed959-70a9-4ee7-8c84-056bba5b63d7",
+            "service_instances_url": "/v2/service_plans/5285bf02-ceb7-4545-a720-1ce9ad1eef15/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

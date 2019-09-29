@@ -1,0 +1,476 @@
+{
+   "total_results": 12,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "b12c68f9-b257-409f-9036-03a729348029",
+            "url": "/v2/service_plans/b12c68f9-b257-409f-9036-03a729348029",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "dev",
+            "free": true,
+            "description": "Free Development MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"Developer\",\n  \"bullets\": [\n    \"1 Server\",\n    \"Best Effort Support\",\n    \"Development Cluster\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "d0de784a-f0cc-4118-bdd9-c7fe09b85997",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/b12c68f9-b257-409f-9036-03a729348029/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "fa5dde43-c1a2-43e2-9241-5cd79f63a339",
+            "url": "/v2/service_plans/fa5dde43-c1a2-43e2-9241-5cd79f63a339",
+            "created_at": "2015-02-02T18:32:54Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "100",
+            "free": false,
+            "description": "100MB MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"100MB\",\n  \"bullets\": [\n    \"1 Server\",\n    \"Best Effort Support\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 15.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "cdc79b0b-6786-4468-bc7f-34d52d96aa91",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/fa5dde43-c1a2-43e2-9241-5cd79f63a339/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "96ccf861-0e4e-4b81-8ad4-e58e5c66daa3",
+            "url": "/v2/service_plans/96ccf861-0e4e-4b81-8ad4-e58e5c66daa3",
+            "created_at": "2015-02-02T18:32:54Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "250",
+            "free": false,
+            "description": "100MB MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"250MB\",\n  \"bullets\": [\n    \"1 Server\",\n    \"Best Effort Support\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 25.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "040e4a89-f0fa-4bcd-8767-33932385e78f",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/96ccf861-0e4e-4b81-8ad4-e58e5c66daa3/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "c9a1ec57-5d73-41f8-895a-a56cc60746f2",
+            "url": "/v2/service_plans/c9a1ec57-5d73-41f8-895a-a56cc60746f2",
+            "created_at": "2015-02-02T18:32:54Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "500",
+            "free": false,
+            "description": "500MB MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"500MB\",\n  \"bullets\": [\n    \"1 Server\",\n    \"Best Effort Support\",\n    \"New Relic Integration\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 40.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "6207fa7e-b0c8-4e26-b0aa-3d24537499e9",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/c9a1ec57-5d73-41f8-895a-a56cc60746f2/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "d45ce9c1-0abf-4260-b25f-da37795a7031",
+            "url": "/v2/service_plans/d45ce9c1-0abf-4260-b25f-da37795a7031",
+            "created_at": "2015-02-02T18:32:54Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "1000",
+            "free": false,
+            "description": "1GB MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"1GB\",\n  \"bullets\": [\n    \"2 Servers\",\n    \"Advanced Analytics Dashboard\",\n    \"9am - 5pm (PST) Support\",\n    \"High Availability Cluster\",\n    \"New Relic Integration\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 60.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "83f03c45-c880-408c-b8ee-fc685ebd470a",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/d45ce9c1-0abf-4260-b25f-da37795a7031/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "b6495cdf-ab98-47d2-b23e-88cc04f91fc7",
+            "url": "/v2/service_plans/b6495cdf-ab98-47d2-b23e-88cc04f91fc7",
+            "created_at": "2015-02-02T18:32:54Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "2000",
+            "free": false,
+            "description": "2.5GB MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"2.5GB\",\n  \"bullets\": [\n    \"2 Servers\",\n    \"Advanced Analytics Dashboard\",\n    \"9am - 5pm (PST) Support\",\n    \"High Availability Cluster\",\n    \"New Relic Integration\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 125.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "28d760a4-e3b1-4d0a-8bcb-78b73ac3df6b",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/b6495cdf-ab98-47d2-b23e-88cc04f91fc7/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "a4baac3c-0104-41b6-bce1-a3caf0e57e47",
+            "url": "/v2/service_plans/a4baac3c-0104-41b6-bce1-a3caf0e57e47",
+            "created_at": "2015-02-02T18:32:54Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "5000",
+            "free": false,
+            "description": "5GB MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"5GB\",\n  \"bullets\": [\n    \"3 Servers\",\n    \"Advanced Analytics Dashboard\",\n    \"9am - 5pm (PST) Support\",\n    \"High Availability Cluster\",\n    \"New Relic Integration\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 250.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "28652c60-f175-4da1-a8ae-3853f981a3bc",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/a4baac3c-0104-41b6-bce1-a3caf0e57e47/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "b79427d5-fb6e-41c7-b2dd-206f587f3d46",
+            "url": "/v2/service_plans/b79427d5-fb6e-41c7-b2dd-206f587f3d46",
+            "created_at": "2015-02-02T18:32:54Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "7500",
+            "free": false,
+            "description": "7.5GB MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"7.5GB\",\n  \"bullets\": [\n    \"3 Servers\",\n    \"Advanced Analytics Dashboard\",\n    \"9am - 5pm (PST) Support\",\n    \"High Availability Cluster\",\n    \"New Relic Integration\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 375.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "0045e708-67d9-41e4-b2b0-d85a55c56487",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/b79427d5-fb6e-41c7-b2dd-206f587f3d46/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "4f1e7268-9785-472a-84aa-f6bec5998054",
+            "url": "/v2/service_plans/4f1e7268-9785-472a-84aa-f6bec5998054",
+            "created_at": "2015-02-02T18:32:54Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "10000",
+            "free": false,
+            "description": "10GB MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"10GB\",\n  \"bullets\": [\n    \"4 Servers\",\n    \"Advanced Analytics Dashboard\",\n    \"24/7 Support\",\n    \"High Availability Cluster\",\n    \"New Relic Integration\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 500.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "624b97fd-c3a2-42da-9730-89222f069673",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/4f1e7268-9785-472a-84aa-f6bec5998054/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "636aa6e2-fc7d-485d-ba84-0939151247a4",
+            "url": "/v2/service_plans/636aa6e2-fc7d-485d-ba84-0939151247a4",
+            "created_at": "2015-02-02T18:32:54Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "20000",
+            "free": false,
+            "description": "20GB MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"20GB\",\n  \"bullets\": [\n    \"4 Servers\",\n    \"Advanced Analytics Dashboard\",\n    \"24/7 Support\",\n    \"High Availability Cluster\",\n    \"New Relic Integration\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 1000.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "57951381-1648-4989-8c55-c71fa4b64c69",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/636aa6e2-fc7d-485d-ba84-0939151247a4/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "9e9455f9-b969-45ff-b62f-2af0aefab250",
+            "url": "/v2/service_plans/9e9455f9-b969-45ff-b62f-2af0aefab250",
+            "created_at": "2015-02-02T18:32:54Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "50000",
+            "free": false,
+            "description": "50GB MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"50GB\",\n  \"bullets\": [\n    \"6 Servers\",\n    \"Advanced Analytics Dashboard\",\n    \"24/7 Support\",\n    \"High Availability Cluster\",\n    \"New Relic Integration\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 2500.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "f4a65595-ea5e-44b4-9fe7-41cb719fd4f7",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/9e9455f9-b969-45ff-b62f-2af0aefab250/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "a37b30e6-7669-4c99-b7a9-f64d5b4ed74a",
+            "url": "/v2/service_plans/a37b30e6-7669-4c99-b7a9-f64d5b4ed74a",
+            "created_at": "2015-02-02T18:32:54Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "100000",
+            "free": false,
+            "description": "100GB MemCachier Cache",
+            "service_guid": "2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "extra": "{\n  \"displayName\": \"100GB\",\n  \"bullets\": [\n    \"6 Servers\",\n    \"Advanced Analytics Dashboard\",\n    \"24/7 Support\",\n    \"High Availability Cluster\",\n    \"New Relic Integration\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 5000.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "5749f17e-2f3b-41fd-a644-a4df4f3b85b8",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/2fa8809e-64fc-4b63-975b-555d2bd5b1a1",
+            "service_instances_url": "/v2/service_plans/a37b30e6-7669-4c99-b7a9-f64d5b4ed74a/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

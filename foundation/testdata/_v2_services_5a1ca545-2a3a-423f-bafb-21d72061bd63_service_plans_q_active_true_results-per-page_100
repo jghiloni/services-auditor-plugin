@@ -1,0 +1,86 @@
+{
+   "total_results": 2,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "a747dbf4-39a6-4584-a6ad-ddea0cc3a3b2",
+            "url": "/v2/service_plans/a747dbf4-39a6-4584-a6ad-ddea0cc3a3b2",
+            "created_at": "2015-01-19T21:16:34Z",
+            "updated_at": "2019-05-28T20:11:31Z"
+         },
+         "entity": {
+            "name": "opx_global",
+            "free": false,
+            "description": "Openmix Latency-Optimizing Global Cloud and Data Center Load Balancer",
+            "service_guid": "5a1ca545-2a3a-423f-bafb-21d72061bd63",
+            "extra": "{\n  \"displayName\": \"Openmix Latency-Optimizing Global Cloud and Data Center Load Balancer\",\n  \"bullets\": [\n    \"End user performance optimization using Cedexis Radar RUM community data\",\n    \"SaaS based global load balancing between cloud regions and/or data centers (250K decisions included)\",\n    \"Integration to popular cloud monitoring tools for immediate fail over\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 250.0\n      },\n      \"unit\": \"MONTHLY\"\n    },\n    {\n      \"amount\": {\n        \"usd\": 50.0\n      },\n      \"unit\": \"UNIT MONTHLY\"\n    },\n    {\n      \"amount\": {\n        \"usd\": 300.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "d6228fbd-c4dc-44da-a3be-4c22b52266b2",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/5a1ca545-2a3a-423f-bafb-21d72061bd63",
+            "service_instances_url": "/v2/service_plans/a747dbf4-39a6-4584-a6ad-ddea0cc3a3b2/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "a4208146-12eb-4630-9c08-e8252466c371",
+            "url": "/v2/service_plans/a4208146-12eb-4630-9c08-e8252466c371",
+            "created_at": "2015-01-19T21:16:34Z",
+            "updated_at": "2019-05-28T20:11:31Z"
+         },
+         "entity": {
+            "name": "openmix-gslb-with-fusion-feeds",
+            "free": false,
+            "description": "Openmix Global Cloud & Data Center Load Balancer with External Data Feeds",
+            "service_guid": "5a1ca545-2a3a-423f-bafb-21d72061bd63",
+            "extra": "{\n  \"displayName\": \"Openmix Global Cloud & Data Center Load Balancer with External Data Feeds\",\n  \"bullets\": [\n    \"Optimize Website & Mobile app end user experience with data driven load balancing\",\n    \"Use Cedexis Radar RUM measurements to intelligently load balance between data centers and clouds\",\n    \"Integrate server and application monitoring data to optimize\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 300.0\n      },\n      \"unit\": \"MONTHLY\"\n    },\n    {\n      \"amount\": {\n        \"usd\": 50.0\n      },\n      \"unit\": \"UNIT MONTHLY\"\n    },\n    {\n      \"amount\": {\n        \"usd\": 125.0\n      },\n      \"unit\": \"CONNECTION MONTHLY\"\n    },\n    {\n      \"amount\": {\n        \"usd\": 250.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "3b654356-86ee-4750-8bc4-01dc69646c6c",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/5a1ca545-2a3a-423f-bafb-21d72061bd63",
+            "service_instances_url": "/v2/service_plans/a4208146-12eb-4630-9c08-e8252466c371/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

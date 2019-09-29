@@ -1,0 +1,47 @@
+{
+   "total_results": 1,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "d848ea46-54dc-4ce8-af33-14c130a949a0",
+            "url": "/v2/service_plans/d848ea46-54dc-4ce8-af33-14c130a949a0",
+            "created_at": "2015-01-19T21:16:33Z",
+            "updated_at": "2019-05-28T20:11:31Z"
+         },
+         "entity": {
+            "name": "free",
+            "free": true,
+            "description": "Free Edition",
+            "service_guid": "bc5f4870-0d21-41ee-b968-e14286196b95",
+            "extra": "{\n  \"displayName\": \"Free Edition\",\n  \"bullets\": [\n    \"Data Streams\",\n    \"Over 60 SDKs\",\n    \"Auto Reconnect\",\n    \"Message Catchup\",\n    \"<1/4 Sec Latency\",\n    \"SSL/AES Encryption\",\n    \"Developer Support\",\n    \"Access Manager (30 Day Trial)\",\n    \"Device Presence (30 Day Trial)\",\n    \"Stream Controller (30 Day Trial)\",\n    \"Storage & Playback (30 Day Trial)\",\n    \"Real Time Analytics (30 Day Trial)\",\n    \"Mobile Push Gateway (30 Day Trial)\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "075e1830-f34f-41db-bfd0-de37a769c137",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/bc5f4870-0d21-41ee-b968-e14286196b95",
+            "service_instances_url": "/v2/service_plans/d848ea46-54dc-4ce8-af33-14c130a949a0/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

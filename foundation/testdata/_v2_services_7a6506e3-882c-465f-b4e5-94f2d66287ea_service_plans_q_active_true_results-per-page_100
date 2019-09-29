@@ -1,0 +1,172 @@
+{
+   "total_results": 4,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "8f63d888-eb60-4ec4-a28b-8c84b9eef4b6",
+            "url": "/v2/service_plans/8f63d888-eb60-4ec4-a28b-8c84b9eef4b6",
+            "created_at": "2019-09-23T19:28:55Z",
+            "updated_at": "2019-09-25T13:30:34Z"
+         },
+         "entity": {
+            "name": "extra-small",
+            "free": true,
+            "description": "Caching Plan 1",
+            "service_guid": "7a6506e3-882c-465f-b4e5-94f2d66287ea",
+            "extra": "{\n  \"bullets\": [\n    \"Caching Plan 1\"\n  ],\n  \"displayName\": \"extra-small\"\n}",
+            "unique_id": "8b4d5f78-6719-4ccc-8b70-59bd396c0991",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {
+               "version": "1.9.0-build.119"
+            },
+            "service_url": "/v2/services/7a6506e3-882c-465f-b4e5-94f2d66287ea",
+            "service_instances_url": "/v2/service_plans/8f63d888-eb60-4ec4-a28b-8c84b9eef4b6/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "b0989a6c-6d8d-4cd3-91c1-d2ed02019294",
+            "url": "/v2/service_plans/b0989a6c-6d8d-4cd3-91c1-d2ed02019294",
+            "created_at": "2019-09-23T19:28:55Z",
+            "updated_at": "2019-09-25T13:30:34Z"
+         },
+         "entity": {
+            "name": "small",
+            "free": true,
+            "description": "Caching Plan 2",
+            "service_guid": "7a6506e3-882c-465f-b4e5-94f2d66287ea",
+            "extra": "{\n  \"bullets\": [\n    \"Caching Plan 2\"\n  ],\n  \"displayName\": \"small\"\n}",
+            "unique_id": "afd5b714-fd28-11e6-beff-731db4449825",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {
+               "version": "1.9.0-build.119"
+            },
+            "service_url": "/v2/services/7a6506e3-882c-465f-b4e5-94f2d66287ea",
+            "service_instances_url": "/v2/service_plans/b0989a6c-6d8d-4cd3-91c1-d2ed02019294/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "ce64f667-0b19-4b3d-83da-b80f27282308",
+            "url": "/v2/service_plans/ce64f667-0b19-4b3d-83da-b80f27282308",
+            "created_at": "2019-09-23T19:28:55Z",
+            "updated_at": "2019-09-25T13:30:34Z"
+         },
+         "entity": {
+            "name": "dev-plan",
+            "free": true,
+            "description": "Plan Description",
+            "service_guid": "7a6506e3-882c-465f-b4e5-94f2d66287ea",
+            "extra": "{\n  \"bullets\": [\n    \"Plan Description\"\n  ],\n  \"displayName\": \"dev-plan\"\n}",
+            "unique_id": "a74e9b33-3a95-4f0f-820f-12cf3cea00de",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {
+               "version": "1.9.0-build.119"
+            },
+            "service_url": "/v2/services/7a6506e3-882c-465f-b4e5-94f2d66287ea",
+            "service_instances_url": "/v2/service_plans/ce64f667-0b19-4b3d-83da-b80f27282308/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "0ed8286b-e1f6-4c12-9c5a-a219bb90d7b0",
+            "url": "/v2/service_plans/0ed8286b-e1f6-4c12-9c5a-a219bb90d7b0",
+            "created_at": "2019-09-23T19:28:55Z",
+            "updated_at": "2019-09-25T13:30:34Z"
+         },
+         "entity": {
+            "name": "small-footprint",
+            "free": true,
+            "description": "Plan Description",
+            "service_guid": "7a6506e3-882c-465f-b4e5-94f2d66287ea",
+            "extra": "{\n  \"bullets\": [\n    \"Plan Description\"\n  ],\n  \"displayName\": \"small-footprint\"\n}",
+            "unique_id": "a74e9b33-3a95-4f0f-820f-234fhner23003s",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {
+               "version": "1.9.0-build.119"
+            },
+            "service_url": "/v2/services/7a6506e3-882c-465f-b4e5-94f2d66287ea",
+            "service_instances_url": "/v2/service_plans/0ed8286b-e1f6-4c12-9c5a-a219bb90d7b0/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

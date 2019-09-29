@@ -1,0 +1,125 @@
+{
+   "total_results": 3,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "e8735a0d-efe0-40a8-828d-e6fa09577122",
+            "url": "/v2/service_plans/e8735a0d-efe0-40a8-828d-e6fa09577122",
+            "created_at": "2017-02-10T18:19:38Z",
+            "updated_at": "2019-05-28T20:11:29Z"
+         },
+         "entity": {
+            "name": "spring",
+            "free": true,
+            "description": "Spring",
+            "service_guid": "bc4b05aa-9b47-414c-a234-e2d182f7be86",
+            "extra": "{\n  \"displayName\": \"Spring\",\n  \"bullets\": [\n    \"10 max concurrent connections\",\n    \"1 million messages\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "0c4b7dd6-683b-4c5b-a3f0-b28090368be8",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/bc4b05aa-9b47-414c-a234-e2d182f7be86",
+            "service_instances_url": "/v2/service_plans/e8735a0d-efe0-40a8-828d-e6fa09577122/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "5fc60cb0-18b0-400d-b35e-fe8c4eb31592",
+            "url": "/v2/service_plans/5fc60cb0-18b0-400d-b35e-fe8c4eb31592",
+            "created_at": "2017-02-10T18:19:38Z",
+            "updated_at": "2019-05-28T20:11:29Z"
+         },
+         "entity": {
+            "name": "creek",
+            "free": false,
+            "description": "Creek",
+            "service_guid": "bc4b05aa-9b47-414c-a234-e2d182f7be86",
+            "extra": "{\n  \"displayName\": \"Creek\",\n  \"bullets\": [\n    \"5000 max concurrent connections\",\n    \"500 million messages\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 500.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "668061ed-0228-4570-8e96-a502678bca7b",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/bc4b05aa-9b47-414c-a234-e2d182f7be86",
+            "service_instances_url": "/v2/service_plans/5fc60cb0-18b0-400d-b35e-fe8c4eb31592/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "73d7be96-9fc5-405e-94af-8936da164eaa",
+            "url": "/v2/service_plans/73d7be96-9fc5-405e-94af-8936da164eaa",
+            "created_at": "2017-11-02T22:20:48Z",
+            "updated_at": "2019-05-28T20:11:29Z"
+         },
+         "entity": {
+            "name": "brook",
+            "free": false,
+            "description": "Brook",
+            "service_guid": "bc4b05aa-9b47-414c-a234-e2d182f7be86",
+            "extra": "{\n  \"displayName\": \"Brook\",\n  \"bullets\": [\n    \"1000 max concurrent connections\",\n    \"100 million messages\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 100.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "241cefaf-0195-4355-9abf-73c3fa331ab7",
+            "public": true,
+            "bindable": false,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/bc4b05aa-9b47-414c-a234-e2d182f7be86",
+            "service_instances_url": "/v2/service_plans/73d7be96-9fc5-405e-94af-8936da164eaa/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

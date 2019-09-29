@@ -1,0 +1,281 @@
+{
+   "total_results": 7,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "43044784-25a0-413a-a0e2-31dc21958c47",
+            "url": "/v2/service_plans/43044784-25a0-413a-a0e2-31dc21958c47",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "100mb",
+            "free": false,
+            "description": "Basic",
+            "service_guid": "515ce213-3ba5-417e-8db9-71d42b093246",
+            "extra": "{\n  \"displayName\": \"100MB\",\n  \"bullets\": [\n    \"Auto-failover\",\n    \"Replication\",\n    \"Data persistence to EBS\",\n    \"Daily and instant backups to S3\",\n    \"4 dedicated buckets\",\n    \"24/7 toll-free support hotline\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 14.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "2ca70ffa-05be-47fe-b17a-61fd5038aba6",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/515ce213-3ba5-417e-8db9-71d42b093246",
+            "service_instances_url": "/v2/service_plans/43044784-25a0-413a-a0e2-31dc21958c47/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "6b6a723c-6ed7-4c00-8a31-31c0a5dcaf6e",
+            "url": "/v2/service_plans/6b6a723c-6ed7-4c00-8a31-31c0a5dcaf6e",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "250mb",
+            "free": false,
+            "description": "Mini",
+            "service_guid": "515ce213-3ba5-417e-8db9-71d42b093246",
+            "extra": "{\n  \"displayName\": \"250MB\",\n  \"bullets\": [\n    \"Auto-failover\",\n    \"Replication\",\n    \"Data persistence to EBS\",\n    \"Daily and instant backups to S3\",\n    \"8 dedicated buckets\",\n    \"24/7 toll-free support hotline\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 24.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "f41ffa18-a0dc-4b84-9359-c3ab73f108a1",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/515ce213-3ba5-417e-8db9-71d42b093246",
+            "service_instances_url": "/v2/service_plans/6b6a723c-6ed7-4c00-8a31-31c0a5dcaf6e/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "08be20d9-5d80-4424-ba19-b40d0f073e00",
+            "url": "/v2/service_plans/08be20d9-5d80-4424-ba19-b40d0f073e00",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "500mb",
+            "free": false,
+            "description": "Small",
+            "service_guid": "515ce213-3ba5-417e-8db9-71d42b093246",
+            "extra": "{\n  \"displayName\": \"500MB\",\n  \"bullets\": [\n    \"Auto-failover\",\n    \"Replication\",\n    \"Data persistence to EBS\",\n    \"Daily and instant backups to S3\",\n    \"12 dedicated databases\",\n    \"24/7 toll-free support hotline\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 39.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "0674f8c4-991e-46f6-b5ee-360baccc5809",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/515ce213-3ba5-417e-8db9-71d42b093246",
+            "service_instances_url": "/v2/service_plans/08be20d9-5d80-4424-ba19-b40d0f073e00/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "53f4a57e-1533-4d17-93d2-6ec1ea2f8a69",
+            "url": "/v2/service_plans/53f4a57e-1533-4d17-93d2-6ec1ea2f8a69",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "1gb",
+            "free": false,
+            "description": "Standard",
+            "service_guid": "515ce213-3ba5-417e-8db9-71d42b093246",
+            "extra": "{\n  \"displayName\": \"1GB\",\n  \"bullets\": [\n    \"Auto-failover\",\n    \"Replication\",\n    \"Data persistence to EBS\",\n    \"Daily and instant backups to S3\",\n    \"16 dedicated buckets\",\n    \"24/7 toll-free support hotline\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 66.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "3fabb6b3-6a41-425b-b4a8-a4924e19ac4a",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/515ce213-3ba5-417e-8db9-71d42b093246",
+            "service_instances_url": "/v2/service_plans/53f4a57e-1533-4d17-93d2-6ec1ea2f8a69/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "975e518f-eda0-43ad-aae5-f392fbec31d2",
+            "url": "/v2/service_plans/975e518f-eda0-43ad-aae5-f392fbec31d2",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "2-5gb",
+            "free": false,
+            "description": "Medium",
+            "service_guid": "515ce213-3ba5-417e-8db9-71d42b093246",
+            "extra": "{\n  \"displayName\": \"2.5GB\",\n  \"bullets\": [\n    \"Auto-failover\",\n    \"Replication\",\n    \"Data persistence to EBS\",\n    \"Daily and instant backups to S3\",\n    \"24 dedicated buckets\",\n    \"24/7 toll-free support hotline\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 160.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "68d10cf9-9978-4d71-8ef5-a0e2e15563e1",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/515ce213-3ba5-417e-8db9-71d42b093246",
+            "service_instances_url": "/v2/service_plans/975e518f-eda0-43ad-aae5-f392fbec31d2/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "d16fd728-67e4-407c-b1cc-6fed245ee9a8",
+            "url": "/v2/service_plans/d16fd728-67e4-407c-b1cc-6fed245ee9a8",
+            "created_at": "2015-01-19T21:16:32Z",
+            "updated_at": "2019-05-28T20:11:30Z"
+         },
+         "entity": {
+            "name": "5gb",
+            "free": false,
+            "description": "Large",
+            "service_guid": "515ce213-3ba5-417e-8db9-71d42b093246",
+            "extra": "{\n  \"displayName\": \"5GB\",\n  \"bullets\": [\n    \"Auto-failover\",\n    \"Replication\",\n    \"Data persistence to EBS\",\n    \"Daily and instant backups to S3\",\n    \"32 dedicated buckets\",\n    \"24/7 toll-free support hotline\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 290.0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "e7f9a408-588f-466a-ad1c-086d48ae5735",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/515ce213-3ba5-417e-8db9-71d42b093246",
+            "service_instances_url": "/v2/service_plans/d16fd728-67e4-407c-b1cc-6fed245ee9a8/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "7ce72cae-f925-4dc8-9e99-d447e6ba8ca3",
+            "url": "/v2/service_plans/7ce72cae-f925-4dc8-9e99-d447e6ba8ca3",
+            "created_at": "2015-05-26T21:15:14Z",
+            "updated_at": "2019-05-28T20:11:31Z"
+         },
+         "entity": {
+            "name": "30mb",
+            "free": true,
+            "description": "Lifetime Free Tier",
+            "service_guid": "515ce213-3ba5-417e-8db9-71d42b093246",
+            "extra": "{\n  \"displayName\": \"30MB\",\n  \"bullets\": [\n    \"1 Dedicated database\",\n    \"30 Connections\",\n    \"Limited to one free database per account\"\n  ],\n  \"costs\": [\n    {\n      \"amount\": {\n        \"usd\": 0\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ]\n}",
+            "unique_id": "8af98f7c-91e3-429b-b831-655c7b9c42e3",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/515ce213-3ba5-417e-8db9-71d42b093246",
+            "service_instances_url": "/v2/service_plans/7ce72cae-f925-4dc8-9e99-d447e6ba8ca3/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {}
+                  },
+                  "update": {
+                     "parameters": {}
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}

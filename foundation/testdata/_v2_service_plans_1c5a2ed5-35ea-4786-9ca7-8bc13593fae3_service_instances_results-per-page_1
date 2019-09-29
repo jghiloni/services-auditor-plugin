@@ -1,0 +1,44 @@
+{
+   "total_results": 1,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "94ec332a-997e-47e1-85ca-33e7b1c9f781",
+            "url": "/v2/service_instances/94ec332a-997e-47e1-85ca-33e7b1c9f781",
+            "created_at": "2019-05-16T03:06:36Z",
+            "updated_at": "2019-05-16T03:06:36Z"
+         },
+         "entity": {
+            "name": "counter",
+            "credentials": {},
+            "service_plan_guid": "1c5a2ed5-35ea-4786-9ca7-8bc13593fae3",
+            "space_guid": "f042afb6-f585-4b42-8f1f-8ae57e4c2532",
+            "gateway_data": null,
+            "dashboard_url": "https://cloudfoundry.appdirect.com/api/custom/cloudfoundry/v2/sso/start?serviceUuid=94ec332a-997e-47e1-85ca-33e7b1c9f781",
+            "type": "managed_service_instance",
+            "last_operation": {
+               "type": "create",
+               "state": "succeeded",
+               "description": "",
+               "updated_at": "2019-05-16T03:06:36Z",
+               "created_at": "2019-05-16T03:06:36Z"
+            },
+            "tags": [],
+            "maintenance_info": {},
+            "service_guid": "99b6e48d-f319-4a72-b854-a6e43eea9c3c",
+            "space_url": "/v2/spaces/f042afb6-f585-4b42-8f1f-8ae57e4c2532",
+            "service_plan_url": "/v2/service_plans/1c5a2ed5-35ea-4786-9ca7-8bc13593fae3",
+            "service_bindings_url": "/v2/service_instances/94ec332a-997e-47e1-85ca-33e7b1c9f781/service_bindings",
+            "service_keys_url": "/v2/service_instances/94ec332a-997e-47e1-85ca-33e7b1c9f781/service_keys",
+            "routes_url": "/v2/service_instances/94ec332a-997e-47e1-85ca-33e7b1c9f781/routes",
+            "service_url": "/v2/services/99b6e48d-f319-4a72-b854-a6e43eea9c3c",
+            "shared_from_url": "/v2/service_instances/94ec332a-997e-47e1-85ca-33e7b1c9f781/shared_from",
+            "shared_to_url": "/v2/service_instances/94ec332a-997e-47e1-85ca-33e7b1c9f781/shared_to",
+            "service_instance_parameters_url": "/v2/service_instances/94ec332a-997e-47e1-85ca-33e7b1c9f781/parameters"
+         }
+      }
+   ]
+}

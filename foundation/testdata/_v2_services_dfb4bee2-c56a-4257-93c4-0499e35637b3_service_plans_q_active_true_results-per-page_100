@@ -1,0 +1,234 @@
+{
+   "total_results": 2,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "ad548236-e46c-4555-8193-07cce641f4e7",
+            "url": "/v2/service_plans/ad548236-e46c-4555-8193-07cce641f4e7",
+            "created_at": "2018-04-26T18:08:47Z",
+            "updated_at": "2019-08-05T10:31:47Z"
+         },
+         "entity": {
+            "name": "standard",
+            "free": false,
+            "description": "Standard Plan",
+            "service_guid": "dfb4bee2-c56a-4257-93c4-0499e35637b3",
+            "extra": "{\n  \"costs\": [\n    {\n      \"amount\": {\n        \"USD\": 39.99\n      },\n      \"unit\": \"MONTHLY\"\n    }\n  ],\n  \"bullets\": [\n    \"Single-tenant\",\n    \"Netflix OSS Eureka\"\n  ]\n}",
+            "unique_id": "4bf55f88-e169-4340-a4d7-784d54f36d99",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/dfb4bee2-c56a-4257-93c4-0499e35637b3",
+            "service_instances_url": "/v2/service_plans/ad548236-e46c-4555-8193-07cce641f4e7/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {
+                        "$schema": "http://json-schema.org/draft-04/schema#",
+                        "description": "Configuration parameters for creating a Spring Cloud Service Registry",
+                        "additionalProperties": false,
+                        "title": "Spring Cloud Service Registry",
+                        "type": "object",
+                        "properties": {
+                           "count": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "default": 1,
+                              "description": "The number of nodes to provision: 1 by default, more for running in high-availability mode"
+                           },
+                           "peers": {
+                              "type": "array",
+                              "items": {
+                                 "type": "object",
+                                 "additionalProperties": false,
+                                 "properties": {
+                                    "uri": {
+                                       "type": "string",
+                                       "pattern": "^https://.+$",
+                                       "description": "The URI of the Service Registry peer"
+                                    },
+                                    "skipSslValidation": {
+                                       "type": "boolean",
+                                       "default": false,
+                                       "description": "Whether to skip SSL validation for the Service Registry peer. Valid values are true and false (default: false)"
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  },
+                  "update": {
+                     "parameters": {
+                        "$schema": "http://json-schema.org/draft-04/schema#",
+                        "description": "Configuration parameters for updating a Spring Cloud Service Registry",
+                        "additionalProperties": false,
+                        "title": "Spring Cloud Service Registry",
+                        "type": "object",
+                        "properties": {
+                           "count": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "default": 1,
+                              "description": "The number of nodes to provision: 1 by default, more for running in high-availability mode"
+                           },
+                           "upgrade": {
+                              "type": "boolean",
+                              "description": "Whether to upgrade the instance"
+                           },
+                           "force": {
+                              "type": "boolean",
+                              "description": "Forces the service instance backing application to restage and apply requested parameter values"
+                           },
+                           "peers": {
+                              "type": "array",
+                              "items": {
+                                 "type": "object",
+                                 "additionalProperties": false,
+                                 "properties": {
+                                    "uri": {
+                                       "type": "string",
+                                       "pattern": "^https://.+$",
+                                       "description": "The URI of the Service Registry peer"
+                                    },
+                                    "skipSslValidation": {
+                                       "type": "boolean",
+                                       "default": false,
+                                       "description": "Whether to skip SSL validation for the Service Registry peer. Valid values are true and false (default: false)"
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      },
+      {
+         "metadata": {
+            "guid": "b9242b2c-c6f6-430b-8f39-f270e7d838ac",
+            "url": "/v2/service_plans/b9242b2c-c6f6-430b-8f39-f270e7d838ac",
+            "created_at": "2018-04-26T18:08:47Z",
+            "updated_at": "2019-08-05T10:31:47Z"
+         },
+         "entity": {
+            "name": "trial",
+            "free": true,
+            "description": "Service instances using this plan are deleted automatically 7 days after creation",
+            "service_guid": "dfb4bee2-c56a-4257-93c4-0499e35637b3",
+            "extra": "{\n  \"bullets\": [\n    \"Single-tenant\",\n    \"Netflix OSS Eureka\",\n    \"deleted automatically after 7 days\"\n  ]\n}",
+            "unique_id": "20298ce8-0d9f-11e8-ba89-0ed5f89f718b",
+            "public": true,
+            "bindable": true,
+            "plan_updateable": null,
+            "active": true,
+            "maximum_polling_duration": null,
+            "maintenance_info": {},
+            "service_url": "/v2/services/dfb4bee2-c56a-4257-93c4-0499e35637b3",
+            "service_instances_url": "/v2/service_plans/b9242b2c-c6f6-430b-8f39-f270e7d838ac/service_instances",
+            "schemas": {
+               "service_instance": {
+                  "create": {
+                     "parameters": {
+                        "$schema": "http://json-schema.org/draft-04/schema#",
+                        "description": "Configuration parameters for creating a Spring Cloud Service Registry",
+                        "additionalProperties": false,
+                        "title": "Spring Cloud Service Registry",
+                        "type": "object",
+                        "properties": {
+                           "count": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "default": 1,
+                              "description": "The number of nodes to provision: 1 by default, more for running in high-availability mode"
+                           },
+                           "peers": {
+                              "type": "array",
+                              "items": {
+                                 "type": "object",
+                                 "additionalProperties": false,
+                                 "properties": {
+                                    "uri": {
+                                       "type": "string",
+                                       "pattern": "^https://.+$",
+                                       "description": "The URI of the Service Registry peer"
+                                    },
+                                    "skipSslValidation": {
+                                       "type": "boolean",
+                                       "default": false,
+                                       "description": "Whether to skip SSL validation for the Service Registry peer. Valid values are true and false (default: false)"
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  },
+                  "update": {
+                     "parameters": {
+                        "$schema": "http://json-schema.org/draft-04/schema#",
+                        "description": "Configuration parameters for updating a Spring Cloud Service Registry",
+                        "additionalProperties": false,
+                        "title": "Spring Cloud Service Registry",
+                        "type": "object",
+                        "properties": {
+                           "count": {
+                              "type": "integer",
+                              "minimum": 1,
+                              "default": 1,
+                              "description": "The number of nodes to provision: 1 by default, more for running in high-availability mode"
+                           },
+                           "upgrade": {
+                              "type": "boolean",
+                              "description": "Whether to upgrade the instance"
+                           },
+                           "force": {
+                              "type": "boolean",
+                              "description": "Forces the service instance backing application to restage and apply requested parameter values"
+                           },
+                           "peers": {
+                              "type": "array",
+                              "items": {
+                                 "type": "object",
+                                 "additionalProperties": false,
+                                 "properties": {
+                                    "uri": {
+                                       "type": "string",
+                                       "pattern": "^https://.+$",
+                                       "description": "The URI of the Service Registry peer"
+                                    },
+                                    "skipSslValidation": {
+                                       "type": "boolean",
+                                       "default": false,
+                                       "description": "Whether to skip SSL validation for the Service Registry peer. Valid values are true and false (default: false)"
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  }
+               },
+               "service_binding": {
+                  "create": {
+                     "parameters": {}
+                  }
+               }
+            }
+         }
+      }
+   ]
+}
