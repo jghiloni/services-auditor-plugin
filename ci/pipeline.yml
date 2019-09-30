@@ -12,6 +12,12 @@ resources:
     repository: ((plugin_repo))
     access_token: ((source_access_token))
     draft: true
+- name: plugin-release
+  type: github-release
+  source:
+    owner: ((plugin_owner))
+    repository: ((plugin_repo))
+    access_token: ((source_access_token))
 - name: version
   type: semver
   source:
@@ -42,5 +48,51 @@ jobs:
         name: version/version
         tag: version/version
         tag_prefix: v
-        globs: [ "binaries/service-auditor-plugin-*" ]
 
+- name: finalize-draft
+  plan:
+  - in_parallel:
+    - get: source
+      passed: [test-and-build]
+    - get: version
+  - task: test-and-build
+    file: source/ci/tasks/test-and-build.yml
+  - put: version
+    params: {bump: final}
+  - put: plugin-release
+    params:
+      name: version/version
+      tag: version/version
+      tag_prefix: v 
+      globs: 
+      - "binaries/services-auditor-plugin-*"
+
+- name: bump-patch
+  plan:
+  - put: version
+    params: {bump: patch}
+  - put: plugin-release
+    params:
+      name: version/version
+      tag: version/version
+      tag_prefix: v  
+
+- name: bump-minor
+  plan:
+  - put: version
+    params: {bump: minor}
+  - put: plugin-release
+    params:
+      name: version/version
+      tag: version/version
+      tag_prefix: v  
+
+- name: bump-major
+  plan:
+  - put: version
+    params: {bump: major}
+  - put: plugin-release
+    params:
+      name: version/version
+      tag: version/version
+      tag_prefix: v  
