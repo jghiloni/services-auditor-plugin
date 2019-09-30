@@ -27,6 +27,7 @@ jobs:
   plan:
   - in_parallel: 
     - get: source
+      trigger: true
     - get: version
       params:  
         pre: build

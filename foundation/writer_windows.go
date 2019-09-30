@@ -1,6 +1,6 @@
 // +build windows
 
-package "foundation"
+package foundation
 
 import "github.com/fatih/color"
 
