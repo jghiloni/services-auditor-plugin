@@ -9,7 +9,7 @@ resources:
   type: github-release
   source:
     owner: ((plugin_owner))
-    repositorys: ((plugin_repo))
+    repository: ((plugin_repo))
     access_token: ((source_access_token))
     draft: true
 - name: version
@@ -39,5 +39,8 @@ jobs:
         file: version/version
     - put: plugin-release-draft
       params:
-        globs: [ "binaries/service-auditor-plugins*" ]
+        name: version/version
+        tag: version/version
+        tag_prefix: v
+        globs: [ "binaries/service-auditor-plugin-*" ]
 
