@@ -1,0 +1,27 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: golang
+
+inputs:
+- name: source
+- name: version
+
+outputs:
+- name: binaries
+
+run:
+  path: /bin/sh
+  args:
+  - '-ec'
+  - |
+    cd source
+    go test -race -ldflags "-X github.com/jghiloni/service-auditor-plugin/foundation.Version=$(cat ../version/version)" ./...
+    for os in linux darwin windows; do
+      GOOS=$os GOARCH=amd64 go build \
+        -ldflags "-X github.com/jghiloni/service-auditor-plugin/foundation.Version=$(cat ../version/version)" \
+        -o binaries/service-auditor-plugin-$os 
+    done

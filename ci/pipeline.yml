@@ -1,0 +1,42 @@
+---
+resources:
+- name: source
+  type: git
+  source:
+    uri: ((source_uri))
+    private_key: ((source_private_key))
+- name: plugin-release-draft
+  type: github-release
+  source:
+    owner: ((plugin_owner))
+    repositorys: ((plugin_repo))
+    access_token: ((source_access_token))
+    draft: true
+- name: version
+  type: semver
+  source:
+    driver: s3
+    bucket: ((source_semver_bucket))
+    access_key_id: ((source_access_key_id))
+    secret_access_key: ((source_secret_access_key))
+    key: ((plugin_repo))-version
+    initial_version: 0.0.1
+
+jobs:
+- name: test-and-build
+  plan:
+  - in_parallel: 
+    - get: source
+    - get: version
+      params:  
+        pre: build
+  - task: test-and-build
+    file: source/ci/tasks/test-and-build.yml
+  - in_parallel:
+    - put: version
+      params:
+        file: version/version
+    - put: plugin-release-draft
+      params:
+        globs: [ "binaries/service-auditor-plugins*" ]
+
