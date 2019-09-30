@@ -12,22 +12,6 @@ import (
 	"github.com/jghiloni/services-auditor-plugin/foundation"
 )
 
-func TestGetMetadata(t *testing.T) {
-	RegisterTestingT(t)
-
-	ui := &terminalfakes.FakeUI{}
-	plugin := foundation.NewAuditorPlugin(ui)
-
-	expectedVersion := foundation.Version
-
-	metadata := plugin.GetMetadata()
-	version := metadata.Version
-
-	actualVersion := fmt.Sprintf("%d.%d.%d", version.Major, version.Minor, version.Build)
-
-	Expect(actualVersion).To(HavePrefix(expectedVersion))
-}
-
 func TestPluginAsAdmin(t *testing.T) {
 	RegisterTestingT(t)
 
