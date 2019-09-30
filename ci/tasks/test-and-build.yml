@@ -21,7 +21,7 @@ run:
     cd source
     go test -race -ldflags "-X github.com/jghiloni/service-auditor-plugin/foundation.Version=$(cat ../version/version)" ./...
     for os in linux darwin windows; do
-      [[ $os == "windows" ]] && ext='.exe'
+      [ "$os" = "windows" ] && ext='.exe'
       GOOS=$os GOARCH=amd64 go build \
         -ldflags "-X github.com/jghiloni/service-auditor-plugin/foundation.Version=$(cat ../version/version)" \
         -o binaries/service-auditor-plugin-$os$ext 
