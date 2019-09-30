@@ -25,7 +25,7 @@ func TestGetMetadata(t *testing.T) {
 
 	actualVersion := fmt.Sprintf("%d.%d.%d", version.Major, version.Minor, version.Build)
 
-	Expect(actualVersion).To(Equal(expectedVersion))
+	Expect(actualVersion).To(HavePrefix(expectedVersion))
 }
 
 func TestPluginAsAdmin(t *testing.T) {
