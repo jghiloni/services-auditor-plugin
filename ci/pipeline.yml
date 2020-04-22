@@ -11,7 +11,7 @@ resources:
     owner: ((plugin_owner))
     repository: ((plugin_repo))
     access_token: ((source_access_token))
-    draft: true
+    pre_release: true
 - name: plugin-release
   type: github-release
   source:
@@ -49,7 +49,7 @@ jobs:
         tag: version/version
         tag_prefix: v
 
-- name: finalize-draft
+- name: publish-release
   plan:
   - in_parallel:
     - get: source
@@ -66,33 +66,15 @@ jobs:
       tag_prefix: v 
       globs: 
       - "binaries/services-auditor-plugin-*"
-
-- name: bump-patch
-  plan:
   - put: version
     params: {bump: patch}
-  - put: plugin-release
-    params:
-      name: version/version
-      tag: version/version
-      tag_prefix: v  
 
 - name: bump-minor
   plan:
   - put: version
     params: {bump: minor}
-  - put: plugin-release
-    params:
-      name: version/version
-      tag: version/version
-      tag_prefix: v  
 
 - name: bump-major
   plan:
   - put: version
     params: {bump: major}
-  - put: plugin-release
-    params:
-      name: version/version
-      tag: version/version
-      tag_prefix: v  
