@@ -23,7 +23,7 @@ require (
 	github.com/elazarl/goproxy v0.0.0-20190911111923-ecfe977594f1 // indirect
 	github.com/elazarl/goproxy/ext v0.0.0-20190911111923-ecfe977594f1 // indirect
 	github.com/fatih/color v1.7.0
-	github.com/gogo/protobuf v1.3.0 // indirect
+	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/gorilla/websocket v1.4.1 // indirect
 	github.com/kr/pretty v0.1.0 // indirect
@@ -41,9 +41,6 @@ require (
 	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/tedsuo/rata v1.0.0 // indirect
 	github.com/vito/go-interact v1.0.0 // indirect
-	golang.org/x/crypto v0.0.0-20190927123631-a832865fa7ad // indirect
-	golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4 // indirect
-	golang.org/x/sys v0.0.0-20190927073244-c990c680b611 // indirect
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/cheggaaa/pb.v1 v1.0.28 // indirect
 )
